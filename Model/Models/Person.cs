@@ -1,4 +1,4 @@
-﻿namespace WebApi_Server.Models
+﻿namespace Common.Models
 {
     public class Person
     {

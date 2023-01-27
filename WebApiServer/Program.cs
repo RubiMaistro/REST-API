@@ -41,10 +41,10 @@ namespace WebApi_Server
             services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  policy =>
-                                  {
-                                      policy.WithOrigins("https://localhost:7000");
-                                  });
+                    policy =>
+                    {
+                        policy.WithOrigins("https://localhost:7000");
+                    });
             });
         }
 

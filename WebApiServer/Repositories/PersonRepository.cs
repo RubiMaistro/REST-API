@@ -1,4 +1,4 @@
-﻿using WebApi_Server.Models;
+﻿using Common.Models;
 
 namespace WebApi_Server.Repositories
 {
